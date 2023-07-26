@@ -1,17 +1,30 @@
 {% extends 'base.html.twig' %}
-
 {% block title %}Compétences | {{ parent() }}{% endblock %}
-
 {% block body %}
 
-<h1>
-    Compétences :
+    <main class="main-skills">
+        <section class="skills-section">
 
-    <ul>
-        {% for skill in skills %}
-            <li>{{ skill.name }}</li>
-        {% endfor %}
-    </ul>
-</h1>
+            <div>
+                Compétences :
+            </div>
+            <div class="skills-container">
+                <ul class="skills-list">
+                    {% for skill in skills %}
+                        <li class="skill">
+                            <div class="skill-name">
+                                {{ skill.name }}
+                            </div>
+                            <div class="skill-icon">
+                                <img class="icon" src="{{ skill.link }}">
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+
+        </section>
+    </main>
 
 {% endblock %}
