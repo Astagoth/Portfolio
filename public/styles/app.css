@@ -48,13 +48,13 @@ body {
     padding-left: 3rem;
 }
 
-.homepage-section, .skills-section {
+.homepage-section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.main-homepage, .main-skills {
+.main-homepage {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -78,7 +78,24 @@ body {
 .name {
     color: #00c648;
 }
-
 .icon {
     width: 100px;
+}
+
+.main-skills {
+    height: 100vh;
+}
+
+.skills-list {
+    display: flex;
+}
+
+.skills-section {
+    height: 88.2vh;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.skill {
+    width: 20%
 }
