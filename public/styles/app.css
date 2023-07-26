@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+* {
+    letter-spacing: 1.1px;
+}
+
+.profile-pic {
+    border-radius: 50% !important;
+    width: 300px !important;
+}
+
+.header-icon {
+    width: 3.5rem;
+}
+
+.hello-icon {
+    transform: scaleX(-1);
+    padding-left: 3rem;
+}
+
+.homepage-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-homepage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 83.5vh;
+}
+
+.logo {
+    width: 5vw;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+}
+
+.menu-nav {
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.resume-text {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.job-text {
+    color: rgba(0, 0, 0, 0.22);
+}
+.name {
+    color: #00c648;
+}
+

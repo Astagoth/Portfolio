@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil | {{ parent() }}{% endblock %}
+
+{% block body %}
+
+<main class="main-homepage">
+    <section class="homepage-section">
+
+        <div class="resume-text">
+            <img src="{{ asset('images/hello.svg') }}" class="hello-icon" />
+            <div class="text">
+                <div class="hello-text">
+                    Hello, je suis <span class="name">Jordan Dufour</span>
+                </div>
+                <div class="job-text">
+                    Développeur Web Junior
+                </div>
+            </div>
+        </div>
+        <div class="profile-picture">
+            <img src="{{ asset('images/profile.jpg') }}" alt="profile pic" class="profile-pic img-thumbnail shadow mb-5"/>
+        </div>
+    </section>
+</main>
+
+{% endblock %}
